@@ -1,12 +1,12 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Noto Sans', sans-serif;
 }
 header{
     display: flex;
     height:5vh ;
     background-color:rgb(255,92,92);
-    width:100%;
     justify-content: space-between;
     position:sticky;
     top:0;
@@ -15,7 +15,6 @@ header{
 nav{
     display:flex;
     justify-content: space-between; 
-    width: 20%;
 }
 #logo{
     border-radius:50%;
@@ -23,6 +22,111 @@ nav{
 }
 
 footer{
+    position:static;
+    bottom:0;
+    background-color: aqua;
+}
+.conteiner-destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+#logo-principal{
+    width: 300px;
+}
+#carros-destaque{
+    width: 98%;
+    margin-left:1vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-txt>h1{
+    font-size: 2.9rem; 
+}
+#titulo-destaque{
+    display: flex;
+justify-content: center;
+    color: #22252c;
+}
+.subtitulo-txt>h2{
+    font-size: 2rem; 
+    font-weight: 500;
+}
+#subtitulo-destaque{
+    display: flex;
+text-align: center;
+}  
+.escolha-plano>h2{
+    font-size: 2.5rem; 
+    font-weight: 500;
+}
+#subtitulo-escolha{
+    display: flex;
+justify-content: center;
+padding-top:50px;
+padding-bottom: 50px;
+}
+
+#planos{
+    background-color: white;
+    width: 100%;
+    height: 60%;
+}
+.logoPlano{
+    width: 160px;
+    padding-top:2vh ;
+    padding-bottom: 2vh;
+
+}
+.conteiner-planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 5%;
+    height: 70%;
+}
+.mensal{
+    box-shadow: inset 0 0 1em white, 4px 3px 1em rgb(255 92 92);
+    margin-right:5vh ;
+    max-height: 100%;
+    width: 30%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    flex-grow: 1 ;
+}
+#txt-plano{
+    text-align: center;
+}
+#botao-plano-mensal{
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    background: #401717;
+
+    color: white;
+    border-radius: 20px;
+    padding: 1vh ;
+    box-shadow: 5px 5px 5px rgb(255 92 92);
+    
+    text-shadow:none;
+}
+#botao-plano-anual{
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    background: #401717;
+    color: white;
+    border-radius: 20px;
+    padding: 1vh ;
+    box-shadow: 5px 5px 5px rgb(255 92 92);
+    
+    text-shadow:none;
     position:fixed;
     bottom:0;
 }
