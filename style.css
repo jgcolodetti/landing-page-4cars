@@ -59,7 +59,7 @@ justify-content: center;
 }
 #subtitulo-destaque{
     display: flex;
-justify-content: center;
+text-align: center;
 }  
 .escolha-plano>h2{
     font-size: 2.5rem; 
