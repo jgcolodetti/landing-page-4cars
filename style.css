@@ -7,6 +7,7 @@ header{
     display: flex;
     height:5vh ;
     background-color:rgb(255,92,92);
+
     justify-content: space-between;
     position:sticky;
     top:0;
@@ -15,6 +16,7 @@ header{
 nav{
     display:flex;
     justify-content: space-between; 
+
 }
 #logo{
     border-radius:50%;
@@ -129,4 +131,159 @@ padding-bottom: 50px;
     text-shadow:none;
     position:fixed;
     bottom:0;
+}
+
+#nossoTime {
+    background-color: #FF5C5C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+}
+
+.nosso-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.caixa-time {
+    border-right: 1px solid black;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa-time2 {
+    border: 0;
+}
+
+.avatar {
+    width: 10vw;
+    height: 20vh;
+}
+
+.infos-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1vh;
+}
+
+
+.redes-pessoais {
+    display: flex;
+    padding-top: 4vh;
+}
+
+.icone-times {
+    width: 3vw;
+    height: 3vh;
+}
+
+
+#nossoTimeTitulo {
+    background-color: #FF5C5C;
+    text-align: center;
+    padding: 5vh 0;
+    font-size: 2.5rem;
+}
+
+
+#sejaUmParceiroTitulo {
+    text-align: center;
+    padding: 5vh 0;
+    font-size: 2.5rem;
+}
+
+.info-parceiros {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    background-color: #FF5C5C;
+
+}
+
+.info-parceiros > p {
+    padding: 5vh 5vw;
+}
+
+.texto-info-parceiros {
+    border-radius: 1rem;
+    padding: 1vh 1vw;
+    background-color: #FF5C5C;
+    height: 25vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo-info-parceiros{
+    background-color: #FF5C5C;
+    text-align: center;
+    margin: 0;
+    padding: 4vh 0;
+}
+
+.titulo-info-parceiros > h3 {
+    font-size: 2rem;
+    padding: 1vh;
+}
+
+.link-info-parceiros {
+    border: 0;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+
+.botao-parceiros:hover {
+    box-shadow: inset 0 0 1em white, 4px 3px 1em black;
+    opacity: 0.8;
+}
+
+.botao-parceiros {
+    text-decoration: none;
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: 5px solid black;
+}
+.check {
+    width: 1.5vw;
+    height: 1.5vh;
+}
+
+.beneficio-parceiros {
+    margin-top: 2vh;
+    display: flex;
+}
+
+.beneficio-parceiros > h4 {
+    margin-left: 1vw;
+}
+
+.corpo-info-parceiros {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 10vw;
+}
+
+.corpo-info-parceiros > a {
+    margin-left: 15vw;
 }
