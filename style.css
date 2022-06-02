@@ -101,7 +101,6 @@ padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* text-align: center; */
     flex-grow: 1 ;
 }
 #txt-plano{
@@ -127,10 +126,6 @@ padding-bottom: 50px;
     border-radius: 20px;
     padding: 1vh ;
     box-shadow: 5px 5px 5px rgb(255 92 92);
-    
-    text-shadow:none;
-    position:fixed;
-    bottom:0;
 }
 
 #nossoTime {
