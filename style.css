@@ -50,12 +50,6 @@ nav {
     justify-self: flex-start
 }
 
-footer {
-    position: static;
-    bottom: 0;
-    background-color: aqua;
-}
-
 /* TITULO DESTAQUE */
 
 .conteiner-destaque {
@@ -325,4 +319,61 @@ footer {
 
 .corpo-info-parceiros>a {
     margin-left: 15vw;
+}
+
+/* FOOTER */
+
+footer {
+    position: static;
+    bottom: 0;
+    background-color: #802E2E;
+}
+
+.contatos {
+    font-size: 1.1rem;
+}
+
+.contatos > p{
+    margin: 1vh 0;
+}
+.containerFooter {
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.redes-footer {
+    margin: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-footer > h4 {
+    font-size: 1.4rem;
+}
+
+.icone-times {
+    width: 4vw;
+    height: 4vh;
+}
+
+.icones-footer {
+    display: flex;
+    margin-top: 2vh;
+    gap: 1vw;
+}
+
+.faq > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.faq > a:hover {
+    opacity: 0.5;
+    color: white;
+    
 }
