@@ -524,5 +524,74 @@ footer {
 
 /* Nosso time Seja parceiro */
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #nossoTimeTitulo {
+        padding-top: 5vh;
+    }
+    #nossoTime {
+        height: 30vh;
+    }
+    .avatar {
+        width: 15vw;
+        height: 15vw;
+    }
+    .infos-time > h3{
+        font-size: 1rem;
+    }
+    .infos-time > h4{
+        font-size: 0.8rem;
+    }
+    .caixa-time {
+        border: 0;
+    }
+    .icone-times {
+        height: 5vh;
+        width: 5vw;
+        padding: 0 1vw;
+    }
+    #sejaUmParceiroTitulo {
+        padding-top: 5vh;
+    }
+    .info-parceiros {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+    .beneficio-parceiros > h4 {
+        font-size: 0.8rem;
+    }
+    .botao-parceiros {
+        margin-top: 10vh;
+        width: auto;
+        padding: 0 5vw;
 
+    }
+    .corpo-info-parceiros {
+        justify-content: center;
+        width: 50vw;
+    }
+    .check {
+        height: 3vh;
+        width: 3vw;
+    }
+    .containerFooter {
+        gap: 0;
+    }
+    .contatos > p {
+        font-size: 0.7rem;
+        margin: 0.5vh;
+    }
+    .redes-footer > h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .faq > a {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .faq {
+        display: flex;
+    }
+    
 }
