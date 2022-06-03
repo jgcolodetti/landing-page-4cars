@@ -6,7 +6,7 @@
 
 /* HEADER */
 
-header {
+#container-header {
     display: flex;
     height: 5vh;
     background-color: rgb(255, 92, 92);
@@ -485,6 +485,33 @@ footer {
     opacity: 0.5;
     color: white;
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* HEADER */
+    #container-header {
+        height: auto;
+    }
+    .logo-header {
+        margin-left: 0;
+    }
+    nav {
+        margin-right: 0;
+        text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav > a {
+        padding: 1vh 1vw;
+    }
+    .nav-item {
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: bold;
+        margin: 1vh 2vw;
+    }
+
+}
 /* Celular  Destaque/Planos*/
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
 #titulo-destaque{
@@ -558,8 +585,12 @@ footer {
         margin-top: 15vh;
         margin-bottom: 15vh;
     }
+    .beneficio-parceiros {
+        align-items: center;
+    }
     .beneficio-parceiros > h4 {
         font-size: 0.8rem;
+        margin-left: 2vw;
     }
     .botao-parceiros {
         margin-top: 10vh;
@@ -575,6 +606,7 @@ footer {
         height: 3vh;
         width: 3vw;
     }
+    /* FOOTER */
     .containerFooter {
         gap: 0;
     }
