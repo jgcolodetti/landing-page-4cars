@@ -427,7 +427,6 @@ nav {
 #parceiros>h2 {
     font-size: 3rem;
 }
-
 /* FOOTER */
 
 footer {
@@ -477,7 +476,7 @@ footer {
 
 .faq>a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.8rem;
     font-weight: 600;
 }
@@ -485,4 +484,45 @@ footer {
 .faq>a:hover {
     opacity: 0.5;
     color: white;
+}
+/* Celular  Destaque/Planos*/
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#titulo-destaque{
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+}
+#subtitulo-destaque{
+    font-size: 1.5rem;
+    background-color:rgb(255,92,92); ;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius:5rem;
+}
+#subtitulo-escolha{
+    display: flex;
+    text-align: center;
+}
+.conteiner-planos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+.mensal{
+    width: 80%;
+    margin-bottom: 5vh;
+    margin-left: 6vh;
+}
+}
+/* Quem somos/ Nossos parceiros */
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+}
+
+/* Nosso time Seja parceiro */
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
 }
