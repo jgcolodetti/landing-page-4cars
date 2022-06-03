@@ -13,7 +13,7 @@ Por fim, incluimos uma área com o endereço e outras informações de contato c
 
 ##Status: Concluído.
 
-##Link do Surge: righteous-wish.surge.sh
+##Link do Surge: <http://righteous-wish.surge.sh/>
 
 ##Autores : 
 *Pétrick Machado de Almeida 
