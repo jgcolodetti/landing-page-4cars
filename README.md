@@ -20,3 +20,12 @@ Por fim, incluimos uma área com o endereço e outras informações de contato c
 *Pétrick Machado de Almeida 
 *João Gabriel Colodetti do Carmo
 *Arthur Grossi Fernandes 
+
+##Imagens
+
+![FOTO3](https://user-images.githubusercontent.com/22090173/172072123-3f56bd88-fc82-49e2-9dbd-d66267a7fa25.png)
+![FOTO2](https://user-images.githubusercontent.com/22090173/172072125-b5a7411c-8884-439c-85c6-2d975248707b.png)
+![FOTO1](https://user-images.githubusercontent.com/22090173/172072127-ec7d64a7-ad9b-413e-9816-9c0fd6588c56.png)
+![FOTO6](https://user-images.githubusercontent.com/22090173/172072136-b5a1b8db-2f57-4b66-92b8-a975f5ea8921.png)
+![FOTO5](https://user-images.githubusercontent.com/22090173/172072137-2d8f86c1-8ada-4fa1-9209-a6f65bfc3b9f.png)
+![FOTO4](https://user-images.githubusercontent.com/22090173/172072138-907076c8-946a-48c9-95b7-7b7c7a018e51.png)
